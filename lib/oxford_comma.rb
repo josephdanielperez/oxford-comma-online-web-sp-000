@@ -1,3 +1,5 @@
 def oxford_comma(array)
-  return array.each
+  array.each do |item|
+    return "#{item}"
+  end
 end
